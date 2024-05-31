@@ -1,0 +1,418 @@
+@media(max-width: 1400px){
+    .appointment {
+        padding: 90px 30px 60px 90px;
+    }
+    .appointment__inner {
+        gap: 20px;
+    }
+}
+
+@media(max-width: 1240px){
+    .info {
+        padding-top: 250px;
+    }
+    .info__inner-content {
+        padding: 20px 0 0px;
+    }
+    .info__inner {
+        gap: 30px;
+    }
+}
+
+@media(max-width: 1080px){
+    .info__inner-content {
+        max-width: 420px;
+    }
+}
+
+
+
+
+@media(max-width: 1040px){
+    .header{
+        padding: 280px 0 0 0;
+        background-position: center;
+    }
+    .header__info {
+        margin: 0 auto 0px;
+    }
+    .info {
+        padding-top: 120px;
+    }
+    .info__inner-content {
+        max-width: 380px;
+        padding: 0;
+    }
+    .info__inner-content-benifits {
+        gap: 40px;
+    }
+    .reviews__slider-item {
+        max-width: 600px;
+    }
+    .reviews__slider-item {
+        max-width: 520px;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+@media(max-height: 983px){
+    .header{
+        padding: 200px 0 0 0;
+    }
+    .title {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .reviews__slider-item {
+        max-width: 480px;
+        margin: 0 auto;
+    }
+}
+@media(max-height: 960px){
+    .info__inner-content-title {
+        margin-bottom: 14px;
+    }
+    .info__inner-content-text {
+        margin-bottom: 5px;
+    }
+    .info__inner-image{
+        min-height: 100%;
+    }
+}
+
+
+
+
+@media(max-width: 900px){
+    .info__inner{
+        flex-direction: column;
+    }
+    .info__inner-content{
+        max-width: 100%;
+    }
+    .info__inner-content-title {
+        text-align: center;
+    }
+    .info__inner-content-benifits {
+        gap: 40px;
+        justify-content: center;
+    }
+    .info__inner-image {
+        margin: 0 auto;
+    }
+    .services__content-wrapper {
+        padding: 60px 60px;
+    }
+    .reviews{
+        flex-direction: column;
+    }
+    .reviews__item {
+         margin: 0 auto;
+        order: 1;
+    }
+    .reviews__slider{
+        margin: 0 auto;
+    }
+    .reviews__slider-item {
+        max-width: 100%;
+    }
+    .why-choose__inner {
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 30px;
+        justify-content: center;
+    }
+}
+
+
+
+
+@media(max-width: 880px){
+    .header__info {
+        margin: 0 auto 0px;
+    }
+    .appointment {
+        padding: 70px 30px 40px 60px;
+    }
+}
+
+@media(max-width: 780px){
+    .header__info-wrpper {
+        padding: 30px 20px 35px;
+    }
+    .header__info {
+        margin: 0 auto 0px;
+    }
+    .services__content-wrapper {
+        padding: 60px 30px;
+    }
+    .services__content-item {
+        gap: 30px;
+    }
+    .services__content-wrapper {
+        grid-gap: 80px 40px;
+    }
+    .services {
+        margin-bottom: 120px;
+    }
+    .appointment {
+        padding: 40px 10px 60px 20px;
+    }
+    .info {
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width: 720px){
+    .header {
+        padding: 135px 0 0 0;
+    }
+    .appointment__inner{
+        flex-direction: column;
+    }
+    .appointment__info{
+        max-width: 100%;
+    }
+    .appointment__title{
+        text-align: center;
+    }
+    .appointment__contacts {
+        display: flex;
+        gap: 40px;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .appointment__form{
+        max-width: 100%;
+    }
+    .appointment__form-textarea {
+        height: 110px;
+    }
+    .appointment__form {
+        height: 515px;
+        padding: 30px 40px 30px;
+    }
+    .appointment__contacts {
+        justify-content: space-between;
+    }
+    .appointment__contacts-item {
+        gap: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+@media(max-height: 680px){
+    .header{
+        padding: 20px 0 0 0;
+    }
+}
+
+@media(max-width: 680px){
+    .footer__inner {
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 640px){
+    .services__text {
+        margin: 0 auto 30px;
+    }
+    .header {
+        padding: 190px 0 0 0;    
+    }
+    .header__title {
+        font-weight: 900;
+        line-height: 68px;
+        font-size: 64px;
+        margin-bottom: 25px;
+    }
+    .services__content-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .services__content-item-info-price{
+        color:  rgb(222, 199, 166);
+    }
+    .info {
+        padding-top: 322px;
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width: 620px){
+    .header__buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    } 
+  .header__info-wrpper{
+       display: none;
+    }
+    .info {
+        padding-top: 60px;
+    }
+    .appointment__contacts-item {
+        gap: 20px;
+    }
+}
+
+@media(max-width: 600px){
+    .appointment__contacts{
+        flex-direction: column;
+    }
+    .appointment__contacts {
+        margin: 0 auto;
+    }
+    .appointment {
+        margin-top: 120px;
+    }
+    .appointment {
+        background-position: right;
+    }
+}
+
+
+@media(max-width: 560px){
+    .header {
+        padding: 263px 0 0 0;
+    }
+    .header__title {
+        line-height: 60px;
+        font-size: 58px;
+        margin-bottom: 20px;
+    }
+    .header__subtitle {
+        font-size: 20px;
+    }
+    .services__content-item-info {
+        max-width: 250px;
+    }
+    .services__content-wrapper {
+        grid-gap: 65px 40px;
+    }
+    .baner, .why-choose__inner  {
+        margin-bottom: 120px;
+    }
+}
+@media(max-width: 510px){
+    .header__title {
+        line-height: 58px;
+        font-size: 54px;
+        margin-bottom: 30px;
+    }
+    .info {
+        padding-top: 34px;
+    }
+    .appointment {
+        padding: 40px 0px 60px 0px;
+    }
+}
+
+@media(max-width: 460px){
+    .services__content-item-info {
+        max-width: 220px;
+    }
+    .services__content-wrapper {
+        padding: 45px 20px;
+    }
+    .info {
+        margin-bottom: 40px; 
+    }
+    .reviews__item {
+        padding-top: 50px;
+    }
+}
+
+@media(max-width: 440px){
+    .title {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    .baner, .why-choose__inner {
+        margin-bottom: 80px;
+    }
+}
+
+@media(max-width: 400px){
+    .services__content-item-info {
+        max-width: 185px;
+    }
+    .services__text {
+        margin: 0 auto 30px;
+    }
+    .reviews__slider-item {
+        padding: 0 20px 40px 20px;
+    }
+    .appointment__form-contacts {
+        flex-direction: column;
+    }
+    .appointment__form-contacts-input {
+        max-width: 100%;
+    }
+    .appointment__form {
+        height: 580px;
+    }
+    .appointment {
+        margin-top: 60px;
+    }
+}
+
+
+@media(max-width: 380px){
+    .header__title {
+        line-height: 52px;
+        font-size: 48px;
+    }
+    /* .header {
+        height: 80vh;
+    } */
+    /* .header {
+        padding: 125px 0 0 0;
+    } */
+    .header {
+        padding: 150px 0 0 0;
+    }
+    .services__content-item{
+        flex-direction: column;
+    }
+    .services__content-item-icon{
+        margin: 0 auto;
+    }
+    .appointment__text {
+        text-align: center;
+    }
+   
+}
+
+
+
+@media(max-width: 360px){
+    .header__title {
+        line-height: 52px;
+        font-size: 48px;
+    }
+}
+@media(max-width: 340px){
+    .header__title {
+        line-height: 48px;
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+    .info {
+        padding-top: 23px;
+    }
+    .title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+}

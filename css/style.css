@@ -1,0 +1,611 @@
+.header {
+    padding: 316px 0 0 0;
+    height: 100vh;
+    position: relative;
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/header-bg.jpeg');
+    /* background: linear-gradient(135.36deg, rgb(18, 18, 18) 2.932%,rgba(18, 18, 18, 0) 42.082%); */
+}
+.header::before{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    background: linear-gradient(135.36deg, rgb(18, 18, 18) 2.932%,rgba(18, 18, 18, 0) 42.082%);
+}
+
+.header__title {
+    color: rgb(255, 255, 255);
+    font-family: "Barlow", sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 86px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.header__subtitle {
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 28px;
+}
+.header__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 80px;
+    --animate-delay: 2s;
+}
+
+.btn {
+    max-width: 271px;
+    width: 100%;
+    background: rgb(222, 199, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+    color: rgb(18, 18, 18);
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 5%;
+    text-transform: uppercase;
+}
+.header__btn-servise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 227px;
+    width: 100%;
+    height: 62px;
+    color: rgb(255, 255, 255);
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+}
+.header__info {
+    margin: 0 auto -160px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    max-width: 1240px;
+    width: 100%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.header__info-wrpper {
+    padding: 41px 67px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__info-item {
+    display: flex;
+    max-width: 253px;
+    width: 100%;
+    flex-direction: column;
+}
+.header__info-item-icon {
+    width: 48px;
+    margin: 0 auto 6px;
+    height: 48px;
+}
+.header__info-item-title, .item-name {
+    color: rgb(18, 18, 18);
+    font-family: "Barlow", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 21px;
+}
+.header__info-item-title::before, .item-name::after{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 6px;
+    background: rgb(222, 199, 166);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+.header__info-item-text {
+    color: rgb(18, 18, 18);
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.info {
+    padding-top: 322px;
+    margin-bottom: 144px;
+}
+.info__inner {
+    display: flex;
+    justify-content: space-around;
+}
+.info__inner-content {
+    padding: 83px 0 100px;
+    max-width: 495px;
+    width: 100%;
+}
+.info__inner-content-title {
+    margin-bottom: 30px;
+}
+.info__inner-content-text {
+    margin-bottom: 20px;
+}
+.info__inner-content-benifits {
+    display: flex;
+    gap: 90px;
+}
+.info__inner-content-benifits-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info__inner-content-benifits-item-num{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    font-family: "Barlow", sans-serif;
+    letter-spacing: 5%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.info__inner-content-benifits-item-num span{
+    color: rgb(222, 199, 166);
+}
+.info__inner-content-benifits-item-text{
+    color: rgb(18, 18, 18);
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 5%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.info__inner-image {
+    max-width: 603px;
+    min-height: 600px;
+    height: 100%;
+    width: 100%;
+}
+
+.services {
+    margin-bottom: 150px;
+}
+.services__title {
+    text-align: center;
+    margin-bottom: 34px;
+}
+.services__text {
+    max-width: 600px;
+   margin: 0 auto 74px;
+   text-align: center;
+}
+.services__content {
+    margin-bottom: 40px;
+}
+.services__content-wrapper {
+    padding: 98px 95px;
+    display: grid;
+    grid-gap: 90px 72px;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+.services__content-item {
+    max-width: 400px;
+    display: flex;
+    gap: 43px;
+    margin: 0 auto;
+}
+.services__content-item-icon img {
+    width: 64px;
+    height: 64px;
+}
+.services__content-item-info {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.services__content-item-info-title {
+    margin-bottom: 10px;
+    color: rgb(18, 18, 18);
+    font-family: "Barlow", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 5%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.services__content-item-info-text {
+    margin-bottom: 15px;
+    color: rgb(18, 18, 18);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.services__content-item-info-price {
+    color: rgb(18, 18, 18);
+    font-family: "Barlow", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 5%;
+}
+.services__btn{
+margin: 0 auto;
+}
+
+.baner {
+    margin-bottom: 136px;
+}
+.baner__wrapper{
+    height: 570px;
+    padding: 136px 0 150px;
+    background-image: url('../images/handsome-man-barbershop-shaving-beard\ 2.jpeg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom center;
+}
+.baner__title {
+    max-width: 820px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 46px;
+    color: rgb(255, 255, 255);
+}
+.baner__btn {
+    margin: 0 auto;
+}
+
+.why-choose {
+}
+.container {
+}
+.why-choose__title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.why-choose__text {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.why-choose__inner {
+    margin-top: 70px;
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+.why-choose__item {
+    max-width: 280px;
+    width: 100%;
+}
+.why-choose__item-icon {
+    margin: 0 auto 7px;
+    display: flex;
+    justify-content: center;
+}
+.why-choose__item-title {
+    margin-bottom: 15px;
+}
+.why-choose__item-text {
+    text-align: center;
+}
+
+
+.reviews {
+    display: flex;
+    justify-content: space-around;
+}
+.reviews__item {
+    display: flex;
+    flex-direction: column;
+    max-width: 135px;
+    padding-top: 70px;
+    width: 100%;
+}
+.reviews__item-icon {
+    margin: 0 auto 23px;
+}
+.reviews__item-title {
+    color: rgb(18, 18, 18);
+    font-family: "Barlow", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 5%;
+    text-align: center;
+}
+.reviews__item-price {
+    color: rgb(18, 18, 18);
+    font-family: "Barlow", sans-serif;
+    font-size: 92px;
+    font-weight: 700;
+    line-height: 110px;
+    letter-spacing: 0%;
+}
+.reviews__item-stars {
+    justify-content: space-between;
+    display: flex;
+}
+.reviews__item-all {
+    color: rgb(18, 18, 18);
+    font-family: "Work Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.reviews__slider {
+    max-width: 600px;
+    width: 100%;
+}
+.reviews__slider-wrapper {
+    min-height: 414px;
+    padding-top: 53.5px;
+    height: 100%;
+}
+.reviews__slider-item {
+    box-sizing: border-box;
+    max-width: 600px;
+    width: 100%;
+    min-height: 350px;
+    height: 100%;
+    padding: 0 40px 40px 40px;
+    border: 1px solid rgb(222, 199, 166);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+
+    /* position: relative; */
+}
+/* .reviews__slider-item::before{
+    position: absolute;
+    content: "";
+    top: -53.5px;
+    width: 107px;
+    height: 107px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url('../images/ava.png');
+} */
+.reviews__slider-item-ava {
+    margin: -53.5px auto 0;
+    display: flex;
+    justify-content: center;
+    z-index: 10000000000;
+}
+.reviews__slider-item-stars {
+
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    margin-top: 34px;
+    margin-bottom: 22px;
+}
+.reviews__slider-item-title {
+    margin-bottom: 9px;
+    color: rgb(18, 18, 18);
+    font-family: "Barlow", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.reviews__slider-item-text {
+    text-align: center;
+    margin-bottom: 16px;
+}
+.reviews__slider-item-author {
+    font-family: "Barlow", sans-serif;
+    color: rgb(18, 18, 18);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+   display: flex;
+   justify-content: center;
+}
+
+.appointment {
+    margin-top: 150px;
+  padding: 135px 126px 72px 164px;
+  background-image: url('../images/image.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 3;
+}
+.appointment::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(90.00deg, rgb(18, 18, 18) 4.483%,rgba(18, 18, 18, 0) 71.226%);
+}
+
+
+
+
+.appointment__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.appointment__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 490px;
+    width: 100%;
+}
+.appointment__title {
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+}
+.appointment__text {
+    margin-bottom: 47px;
+    color: rgb(255, 255, 255);
+}
+.appointment__contacts {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+.appointment__contacts-item {
+    display: flex;
+    gap: 40px;
+}
+.appointment__contacts-item-icon {
+    padding: 15px;
+    background: rgb(255, 255, 255);
+}
+.appointment__contacts-item-icon img{
+    width: 36px;
+    height: 36px;
+}
+.appointment__contacts-item-info {
+    margin: auto 0;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.appointment__contacts-item-info span{
+    color: rgb(255, 255, 255);
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 5%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.appointment__contacts-item-info a{
+    color: rgb(255, 255, 255);
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.appointment__form {
+    max-width: 600px;
+    height: 600px;
+    padding: 37px 40px 48px;
+    width: 100%;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    margin-bottom: -149px;
+
+    /* position: absolute;
+    right: 126px;
+    bottom: -110px; */
+}
+.appointment__form-input {
+    width: 100%;
+    margin-bottom: 32px;
+}
+.appointment__form-input::placeholder{
+    color: rgb(18, 18, 18);
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 5%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.appointment__form-contacts {
+    margin-bottom: 36px;
+    display: flex;
+    gap: 20px;
+}
+.appointment__form-contacts-input {
+    max-width: 250px;
+    width: 100%;
+}
+.appointment__form-textarea{
+    margin-bottom: 41px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(18, 18, 18);
+    height: 177px;
+}
+.appointment__form-textarea::placeholder{
+    color: rgb(18, 18, 18);
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 5%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.map iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 499px;
+}
+
+.footer {
+    padding: 30px 0 28px;
+    background: rgb(18, 18, 18);
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__copy {
+    margin: auto 0;
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+.footer__links {
+    display: flex;
+    gap: 30px;
+}
+.footer__links a{
+    margin: auto 0;
+}

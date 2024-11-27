@@ -60,7 +60,7 @@
 
 @media(max-height: 983px){
     .header{
-        padding: 200px 0 0 0;
+        padding: 100px 0 0 0;
     }
     .title {
         font-size: 42px;
@@ -366,6 +366,11 @@
         margin-top: 60px;
     }
 }
+@media(max-width: 388px){
+    .header {
+        padding: 190px 0 0 0;
+    }
+}
 
 
 @media(max-width: 380px){
@@ -397,6 +402,9 @@
 
 
 @media(max-width: 360px){
+    .header {
+        padding: 240px 0 0 0;
+    }
     .header__title {
         line-height: 52px;
         font-size: 48px;

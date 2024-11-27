@@ -19,6 +19,15 @@
     }
 }
 
+
+@media(max-width: 1180px){
+    .header-content {
+        padding: 230px 0 0 0;
+    }
+}
+
+
+
 @media(max-width: 1080px){
     .info__inner-content {
         max-width: 420px;
@@ -29,8 +38,8 @@
 
 
 @media(max-width: 1040px){
-    .header{
-        padding: 280px 0 0 0;
+    .header-content{
+        padding: 230px 0 0 0;
         background-position: center;
     }
     .header__info {
@@ -56,12 +65,17 @@
 
 }
 
+@media(max-width: 983px){
+    .header-content{
+        padding: 100px 0 0 0;
+    }
+    .header{
+        background-position: center;
+    }
+}
 
 
 @media(max-height: 983px){
-    .header{
-        padding: 100px 0 0 0;
-    }
     .title {
         font-size: 42px;
         line-height: 52px;
@@ -167,7 +181,7 @@
 }
 
 @media(max-width: 720px){
-    .header {
+    .header-content {
         padding: 135px 0 0 0;
     }
     .appointment__inner{
@@ -211,7 +225,7 @@
 
 
 @media(max-height: 680px){
-    .header{
+    .header-content{
         padding: 20px 0 0 0;
     }
 }
@@ -228,7 +242,7 @@
     .services__text {
         margin: 0 auto 30px;
     }
-    .header {
+    .header-content {
         padding: 190px 0 0 0;    
     }
     .header__title {
@@ -283,7 +297,7 @@
 
 
 @media(max-width: 560px){
-    .header {
+    .header-content {
         padding: 263px 0 0 0;
     }
     .header__title {
@@ -343,6 +357,12 @@
     }
 }
 
+@media(max-width: 420px){
+    .header-content {
+        padding: 210px 0 0 0;
+    }
+}
+
 @media(max-width: 400px){
     .services__content-item-info {
         max-width: 185px;
@@ -367,7 +387,7 @@
     }
 }
 @media(max-width: 388px){
-    .header {
+    .header-content {
         padding: 190px 0 0 0;
     }
 }
@@ -384,7 +404,7 @@
     /* .header {
         padding: 125px 0 0 0;
     } */
-    .header {
+    .header-content {
         padding: 150px 0 0 0;
     }
     .services__content-item{
@@ -402,7 +422,7 @@
 
 
 @media(max-width: 360px){
-    .header {
+    .header-content {
         padding: 240px 0 0 0;
     }
     .header__title {

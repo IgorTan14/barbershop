@@ -1,5 +1,5 @@
 .header {
-    padding: 316px 0 0 0;
+    /* padding: 316px 0 0 0; */
     height: 100vh;
     position: relative;
     z-index: 3;
@@ -8,11 +8,16 @@
     background-image: url('../images/header-bg.jpeg');
     /* background: linear-gradient(135.36deg, rgb(18, 18, 18) 2.932%,rgba(18, 18, 18, 0) 42.082%); */
 }
+.header-content{
+        padding: 360px 0 0 0;
+}
 .header::before{
+    width: 100%;
     position: absolute;
     content: "";
     z-index: -1;
-    background: linear-gradient(135.36deg, rgb(18, 18, 18) 2.932%,rgba(18, 18, 18, 0) 42.082%);
+    background: linear-gradient(135.36deg, rgb(18, 18, 18) 2.932%, rgba(18, 18, 18, 0) 42.082%);
+    height: 100%;
 }
 
 .header__title {
